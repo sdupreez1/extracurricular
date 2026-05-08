@@ -31,5 +31,4 @@ stroke.drop(columns=need_to_convert, inplace=True) # Drop all the unconverted co
 stroke_dummy = pd.concat([stroke, is_male, is_married, work_types, urban_res, smoker], axis=1) 
 
 # Write clean DataFrame to a csv 
-# stroke_dummy.to_csv("stroke_clean.csv", index = False) 
-    # Including indexes in the output csv could induce a stroke in the user
+stroke_dummy.to_csv("stroke_clean.csv", index = False) 
