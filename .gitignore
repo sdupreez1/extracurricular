@@ -44,6 +44,11 @@ test.*
 note.*
 notes.*
 
+# Environments #
+################
+.vscode
+*.venv
+
 # WIP Code # 
 ############
 learning_c++
